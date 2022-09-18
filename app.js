@@ -12,7 +12,7 @@ function fetchURL(URL) {
         .then(response => response.json())
         .then(json => dispOutput(json.contents.translated))
         .catch(e)
-            alert(e+"error in API...try after sometime")
+            alert(e+"...error in API...try after sometime")
 }
 
 function dispOutput(result) {
